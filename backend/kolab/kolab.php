@@ -1690,9 +1690,9 @@
                 {
                     //parsing error 
                     debugLog("ERROR ".$kcontact->message);
-                    debugLog("Xml kolab :     $body")  ;
+                    debugLog("Xml kolab :     $kolabXml")  ;
                     $this->Log("ERROR ".$kcontact->message);
-                    $this->Log("XML : $body")  ;   
+                    $this->Log("XML : $kolabXml")  ;   
                     unset($kcontact);
                     return ""; 
 
