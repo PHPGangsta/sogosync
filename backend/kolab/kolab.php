@@ -2627,7 +2627,6 @@
             $this->_cache->delete("ENDDATE:".$folderid."/".$uid);   
             $this->_cache->delete("FLMODE:".$uid); 
             $this->_cache->close();
-            return $result;
         }
         private function CacheCheckVersion()
         {
