@@ -1672,7 +1672,6 @@
                             $name=$part->ctype_parameters["name"];  
                             $images[$name]=$part->body;
                         }
-                        $n++;
                     }
                 }
                 if (! $kolabXml)
@@ -2066,11 +2065,10 @@
                             }
                             return $event;
                         }
-                        $n++;
                     }
                 }
             }
-            return ""     ;
+            return "";
 
         }
         private function kolabReadRecurrence($kevent,$type=0)
