@@ -2261,7 +2261,7 @@
             return array($object['uid'],$h['date'],$header  .$mail[0]."\r\n" .$mail[1]);
 
         }
-        private function kolabWriteReccurence($reccurence)
+        private function kolabWriteReccurence($recurrence)
         {
             $month=array("dummy","january","february","march","april","may","june","july","august","september","october","november","december");
             $rec=array();
