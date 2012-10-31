@@ -2380,7 +2380,7 @@
                             if ($ktask['start'])
                             {
                                 $offset=date('Z',$ktask['start']);
-                                $task->utcstartdate=$kstart['start'];
+                                $task->utcstartdate=$ktask['start'];
                                 $task->startdate=$ktask['start'] + $offset;
                             }
                             if($ktask['due'])
